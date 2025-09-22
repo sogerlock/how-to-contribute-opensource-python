@@ -16,5 +16,5 @@ This endpoint returns the current weather for a given city and country.
 **Example:**
 
 ```
-/api/weather?city=London&country=United%20Kingdom
+/api/weather?city=London&country=Uk
 ```
