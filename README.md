@@ -1,5 +1,20 @@
-# Firebase Studio
+# 🌤️ PyWeather App
 
-This is a NextJS starter in Firebase Studio.
+This is a simple weather application written in Python.
 
-To get started, take a look at src/app/page.tsx.
+## API Endpoint
+
+### GET /api/weather
+
+This endpoint returns the current weather for a given city and country.
+
+**Query Parameters:**
+
+* `city`: The city to get the weather for.
+* `country`: The country to get the weather for.
+
+**Example:**
+
+```
+/api/weather?city=London&country=United%20Kingdom
+```
